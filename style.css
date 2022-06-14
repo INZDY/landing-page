@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+    padding: 0px 200px;
+}
+
+.header{
+    background-color: #1f2937;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
