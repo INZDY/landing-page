@@ -2,8 +2,10 @@
     border-width: 1px;
     border-style: solid;
 }
+
 body{
     margin: 0px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
 }
@@ -16,10 +18,8 @@ body{
 .footer{
     padding: 0px 200px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
+/* Header */
 .header,
 .intro{
     background-color: #1f2937;
@@ -40,19 +40,22 @@ body{
     list-style: none;
     gap: 24px;
 }
-
+/* Intro */
 .intro{
     color: white;
 }
 
-.in_d{
-    width: 500px;
-}
-
+.in_d,
 .in_pic{
     width: 500px;
 }
 
+.in_d{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+/* Containers */
 .container{
     flex-direction: column;
 }
@@ -63,7 +66,7 @@ body{
     gap: 24px;
     display: flex;
 }
-
+/* Quote */
 .quote{
     background-color: #E5E7EB;
     flex-direction: column;
@@ -72,7 +75,7 @@ body{
 .quote span{
     align-self: flex-end;
 }
-
+/* Sign */
 .sign{
     background-color: #3882f6;
     border-radius: 8px;
@@ -81,3 +84,4 @@ body{
     padding: 24px;
     gap: 48px;
 }
+/* Footer */
